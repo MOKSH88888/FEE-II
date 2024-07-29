@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="1form.css">
+    <title>SURVEY FORM</title>
+</head>
+
+<body>
+    <header>
+        <h1>SURVEY FORM</h1>
+        <p class="info"><i>We appreciate your participation in the course. Please take the survey and leave a remark below to help with
+            future improvement.</i></p>
+    </header>
+    <main>
+        <form action="">
+            <h2>Personal Information</h2><br>
+            <hr><br><br>
+
+            <div class="text">
+                <label for="firstName" class="abc">First Name</label>
+                <input type="text" id="firstName" placeholder="Enter your first name" required>
+                <label for="lastName" class="abc">Last Name</label>
+                <input type="text" id="lastName" placeholder="Enter your last name">
+            </div>
+
+            <div class="text">
+                <label for="address">Address :</label>
+                <input type="text" id="add" placeholder="House No." required>
+            </div>
+
+            <div class="text">
+                <label for="email">Email :</label>
+                <input type="email" id="ema" placeholder="@chitkara.edu.in" required>
+            </div>
+
+            <div class="text">
+                <label for="gender">Gender :</label>&nbsp;
+                <input type="radio" name="gender" id="male" value="male"> Male &nbsp;&nbsp;&nbsp;
+                <input type="radio" name="gender" id="female" value="female"> Female
+            </div>
+
+            <div class="text">
+                <label for="age">Age :</label>
+                <select id="age" required>
+                    <option value="12-18">12-18</option>
+                    <option value="19-25">19-25</option>
+                    <option value="26-32">26-32</option>
+                    <option value="33-39">33-39</option>
+                    <option value="40-46">40-46</option>
+                    <option value="47-53">47-53</option>
+                </select>
+            </div>
+
+            <div class="text">
+                <label for="phone">Phone</label>
+                <input type="number" id="mobile" placeholder="+91" required>
+            </div><br><br>
+
+            <h2>Survey Questions</h2><br>
+            <hr><br>
+            <div class="questions">
+                <p>Question 1. How was the course?</p><br>
+                <textarea id="question1" rows="7" cols="70"></textarea><br><br>
+                <p>Question 2. What have you learnt from the course?</p><br>
+                <textarea id="question2" rows="7" cols="70"></textarea><br><br>
+                <p>Question 3. How can we improve?</p><br>
+                <textarea id="question3" rows="7" cols="70"></textarea>
+            </div><br>
+
+            <button type="submit" value="submit">Submit</button><br>
+        </form>
+    </main>
+</body>
+
+</html>

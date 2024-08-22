@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-commerce Website</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/8f79d0c8a6.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="bg-light">
+  <header class="bg-white shadow-sm mb-4">
+    <div class="container d-flex justify-content-between align-items-center py-3">
+      <h1 class="text-primary mb-0">SmartShop</h1>
+      <div class="input-group w-50">
+        <input type="search" class="form-control rounded-pill border-0" placeholder="Search">
+        <span class="input-group-text bg-transparent border-0">
+          <i class="fa-solid fa-magnifying-glass text-primary"></i>
+        </span>
+      </div>
+      <div class="d-flex gap-3">
+        <a href="#" class="text-decoration-none text-primary d-flex align-items-center">
+          <i class="fa-regular fa-user me-1"></i> Sign Up/Sign In
+        </a>
+        <a href="#" class="text-decoration-none text-primary d-flex align-items-center">
+          <i class="fa-solid fa-cart-shopping me-1"></i> Cart
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div id="carouselExampleControls" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="1500">
+          <img src="img/banner.png" class="d-block w-100" alt="Banner Image 1">
+        </div>
+        <div class="carousel-item" data-bs-interval="1500">
+          <img src="img/banner1.png" class="d-block w-100" alt="Banner Image 2">
+        </div>
+        <div class="carousel-item" data-bs-interval="1500">
+          <img src="img/banner2.png" class="d-block w-100" alt="Banner Image 3">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <section class="container my-5">
+      <h2 class="fw-bold text-success">Grab the best deals now!</h2>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card border-0">
+            <img src="img/mobile2.png" class="card-img-top" alt="Smartphone Deal">
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-0">
+            <img src="img/mobile1.png" class="card-img-top" alt="Smartphone Deal">
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-0">
+            <img src="img/mobile2.png" class="card-img-top" alt="Smartphone Deal">
+          </div>
+        </div>
+        <div class="col d-none d-md-block">
+          <div class="card border-0">
+            <img src="img/mobile1.png" class="card-img-top" alt="Smartphone Deal">
+          </div>
+        </div>
+        <div class="col d-none d-md-block">
+          <div class="card border-0">
+            <img src="img/mobile1.png" class="card-img-top" alt="Smartphone Deal">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container my-5">
+      <h2 class="fw-bold text-primary">Top Smartphone Brands</h2>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card border-0">
+            <img src="img/apple.png" class="card-img-top" alt="Brand 1">
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-0">
+            <img src="img/samsung.jpg" class="card-img-top" alt="Brand 2">
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-0">
+            <img src="img/oneplus.jpg" class="card-img-top" alt="Brand 3">
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-primary text-white py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h2 class="fw-bold">SmartShop</h2>
+          <p class="mb-0">Contact Us</p>
+          <p class="mb-1">+91 9988654321</p>
+          <p class="mb-1">Whatsapp: +91 8877445327</p>
+        </div>
+        <div class="col-md-4">
+          <h5 class="fw-semibold text-decoration-underline">Most Popular Categories</h5>
+          <ul class="list-unstyled">
+            <li>Smartphones</li>
+            <li>SmartWatches</li>
+            <li>Tablets</li>
+            <li>Gadgets</li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h5 class="fw-semibold text-decoration-underline">Customer Services</h5>
+          <ul class="list-unstyled">
+            <li>About Us</li>
+            <li>Terms and Conditions</li>
+            <li>FAQ</li>
+            <li>Privacy Policy</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
